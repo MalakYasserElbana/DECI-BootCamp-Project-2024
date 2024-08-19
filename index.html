@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriCare Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NutriCare Meal Planner</h1>
+    </header>
+    
+    <main>
+        <form id="nutricare-form">
+            <h2>Enter Your Details</h2>
+            
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" required>
+            
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            
+            <label for="goal">Goal:</label>
+            <select id="goal" name="goal" required>
+                <option value="build muscle">Build Muscle</option>
+                <option value="lose weight">Lose Weight</option>
+                <option value="healthy living">Healthy Living</option>
+                <option value="maintenance">Maintenance</option>
+            </select>
+            
+            <label for="activity-level">Activity Level:</label>
+            <select id="activity-level" name="activity-level" required>
+                <option value="sedentary">Sedentary</option>
+                <option value="light">Light</option>
+                <option value="moderate">Moderate</option>
+                <option value="active">Active</option>
+                <option value="very active">Very Active</option>
+            </select>
+            
+            <label for="dislikes">Foods you dislike or are allergic to (comma-separated, if none type 'none'):</label>
+            <input type="text" id="dislikes" name="dislikes">
+            
+            <button type="submit">Generate Meal Plan</button>
+        </form>
+        
+        <section id="results" style="display: none;">
+            <h2>Your Results</h2>
+            <p id="bmi-result"></p>
+            <p id="caloric-needs"></p>
+            <p id="protein-needs"></p>
+            <p id="fat-needs"></p>
+            <p id="carb-needs"></p>
+        </section>
+        
+        <section id="meal-plan" style="display: none;">
+            <h2>7-Day Meal Plan</h2>
+            <div id="meal-content"></div>
+            <button id="new-plan">Generate New Plan</button>
+            <button id="restart">Restart</button>
+            <button id="exit">Exit</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NutriCare. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
