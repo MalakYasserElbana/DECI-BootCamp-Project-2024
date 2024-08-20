@@ -52,3 +52,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions, please contact [Malak Yasser Elbana](mailto:malakyasserelbana@gmail.com).
 
 Feel free to modify it with any additional information or updates!
+
+## Screenshots
+
+![Meal Planner Screenshot](Images/DECI_project_Image.PNG)
