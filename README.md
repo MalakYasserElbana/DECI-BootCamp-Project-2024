@@ -56,3 +56,23 @@ Feel free to modify it with any additional information or updates!
 ## Screenshots
 
 ![Meal Planner Screenshot](Images/DECI_project_Image.PNG)
+
+## Technologies Used
+
+- Python
+- Html
+- Javascript
+- css
+
+## Future Features
+
+- Integration with nutrition databases
+- Advanced meal customization options
+
+## Acknowledgments
+
+Thanks to all contributors and open-source projects that made this possible.
+
+## Troubleshooting
+
+If you encounter any issues, ensure your browser supports JavaScript and try clearing your cache.
