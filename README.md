@@ -1,6 +1,6 @@
 # DECI-BootCamp-Project-2024
 
-## NutriCare Meal Planner
+## The Name of the Project is (NutriCare Meal Planner)
 
 ## Project Overview
 
